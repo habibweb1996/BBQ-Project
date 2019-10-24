@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #56545461;
+    height: 17vh;
+}
+
+.navbar-brand img {
+	width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(171, 33, 36) !important;
+    border-radius: 5px;
+}
+
+a.nav-link.btn-custom {}
+
+.btn-custom {
+	background-color: rgb(171, 33, 36);
+	color: #fff !important;
+	border-radius: 30px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border: 1px solid  rgb(171, 33, 36);
+	transition: .35s;
+}
+
+.btn-custom:hover {
+	background-color: rgba(171, 33, 36,0);
+	color: rgb(171, 33, 36) !important;
+	font-weight: 600;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c3c3c;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.banner .row {
+	min-height: 80vh;
+}
+
+.banner h3 {
+	font-size: 30px;
+	color: rgb(171, 33, 36) !important;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.banner h1 {
+	font-size: 70px !important;
+	font-family: 'Abril Fatface', cursive;
+	padding-bottom: 10px;
+}
+.banner p {
+	padding: 10px 0 20px 0;
+}
+.banner-btn li {
+	padding: 10px 10px;
+}
+
+.banner-btn a {
+	color: #fff !important;
+	border-radius: 30px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border: 1px solid  rgb(255, 255, 255);
+	transition: .35s;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.banner-btn a:hover {	
+	background-color: rgb(255, 255, 255);
+	color: rgb(171, 33, 36) !important;
+}
+
+.banner-btn a::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid  rgb(255, 255, 255);
+	border-radius: 30px;
+	top:-3px;
+	left:0;
+
+}
+
+.banner-btn a:hover::before{
+	border: 1px solid  rgba(255, 255, 255,0);
+}
+
+.about-bbq-section {
+	padding: 29px 0;
+}
+
+.about-bbq-section img {
+	height: 100%;
+}
+
+
+.about-bbq{}
+.about-bbq h1{
+	color: rgb(171, 33, 36);
+	font-family: 'Abril Fatface', cursive;
+}
+.about-bbq h4{
+	letter-spacing: 7px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.about-bbq .head{
+	font-size: 16px;
+    font-weight: 500;
+}
+.about-bbq p{}
+
+.about-bbq a {
+	position: relative;
+	background: transparent;
+	color: rgb(171, 33, 36) !important;
+	font-weight: 600;
+	transition: .35s;
+}
+
+.about-bbq a::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid  rgb(171, 33, 36);
+	border-radius: 30px;
+	top:-3px;
+	left:0;
+	transition: .35s;
+
+}
+.about-bbq a:hover {
+	background-color:  rgb(171, 33, 36);
+	color: #fff !important;
+}
+.about-bbq a:hover::before {
+	border: 1px solid  transparent;
+}
+
+.client {
+	padding: 33px 0;
+}
+
+.client img {
+	filter: blur(1px);
+}
+
+
+.client img:hover {
+	filter: blur(0);
+}
+
+.menu-section {
+	padding: 22px 0;
+}
+.menu_hover {
+	transition: .35s;
+}
+.menu_hover:hover {
+	box-shadow: 0 1px 10px #000;
+}
+
+.menu-section h3 {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.menu-section h1 {
+	color: rgb(171, 33, 36);
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 1;
+	font-family: 'Abril Fatface', cursive;
+	padding: 10px 0;
+}
+
+.menu-section p {}
+.menu-section img {
+	border-radius: 50%;
+	padding: 5px 0;
+}
+
+
+
+.reserve {
+    background-image: url(../images/reserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c3c3c;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.reserve .row {
+	min-height: 48vh;
+}
+
+.reserve h3 {
+	font-size: 25px;
+}
+
+.reserve h1 {
+	font-size: 65px !important;
+	color: rgb(171, 33, 36) !important;
+	padding: 20px 0;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.reserve p{
+	padding: 10px 0 20px 0;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 18px;
+}
+
+.reserve-btn li {
+	padding: 0 10px;
+}
+
+.reserve-btn a {
+	color: #fff !important;
+	border-radius: 30px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border: 1px solid  rgb(255, 255, 255);
+	transition: .35s;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.reserve-btn a:hover {	
+	background-color: rgb(255, 255, 255);
+	color: rgb(171, 33, 36) !important;
+}
+
+.reserve-btn a::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid  rgb(255, 255, 255);
+	border-radius: 30px;
+	top:-3px;
+	left:0;
+
+}
+
+.reserve-btn a:hover::before{
+	border: 1px solid  rgba(255, 255, 255,0);
+}
+
+.food_section {
+	padding: 45px 0;
+}
+
+.food_section .food_content h2 {
+	font-size: 59px;
+	font-family: 'Abril Fatface', cursive;
+}
+.food_section .food_content img {
+	height: 80px;
+}
+
+.food_section .food_content p {
+    padding: 40px 85px 0 85px;
+}
+
+.food_comment {
+	padding-top: 55px;
+}
+
+.food_items .food_pic img {
+	height: 100px;
+	border-radius: 50%;
+}
+
+.food_pic {
+	padding-bottom: 25px;
+}
+
+.food_items h4 {
+	font-size: 23px;
+    padding: 13px 0;
+}
+.food_items p {
+	font-size: 15px;
+}
+
+
+
+.footer_section {
+    background-image: url(../images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c3c3c;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer_section .row {
+	min-height: 10vh;
+}
+
+.footer_section h1 {
+	font-size: 90px !important;
+	padding: 20px 0;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.footer_section p{
+	padding: 10px 0 20px 0;
+}
+
+.footer-btn li {
+	padding: 20px 0 10px 0;
+}
+
+.footer-btn a {
+	color: rgb(171, 33, 36) !important;
+	border-radius: 30px;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	border: 1px solid  rgb(171, 33, 36);
+	transition: .35s;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.footer-btn a:hover {	
+	background-color: rgb(255, 255, 255);
+	color: rgb(171, 33, 36) !important;
+}
+
+.footer-btn a::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid  rgb(171, 33, 36);
+	border-radius: 30px;
+	top:-3px;
+	left:0;
+
+}
+
+.footer-btn a:hover::before{
+	border: 1px solid  rgba(255, 255, 255,0);
+}
+
+
+.footer_section h3 {
+	text-transform: capitalize;
+	padding: 35px 0;
+}
+
+.footer_icon li {
+	padding: 0 10px; 
+	text-align: center;
+}
+
+.footer_icon a {
+	color: #fff;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	border: 3px dotted #fff;
+	border-radius: 50%;
+	transition: .35s;
+	text-align: center;
+	padding: 6px;
+}
+
+.footer_icon a:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(171, 33, 36);
+	border: 3px dotted rgb(171, 33, 36);
+}
+
+.footer_content {
+	padding-top: 40px;
+}
+
+.footer_content h5,.footer_content p {
+	color: #61625C;
+	font-size: 15px;
+	font-weight: 500;
+}
